@@ -1,3 +1,6 @@
+input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
+    basic.showIcon(IconNames.House)
+})
 basic.showString("hi!")
 basic.forever(function () {
     basic.showIcon(IconNames.Heart)
@@ -6,5 +9,5 @@ basic.forever(function () {
     basic.pause(1000)
 })
 basic.forever(function () {
-    basic.setLedColor(0xff0000)
+    basic.setLedColor(0x00ff00)
 })
