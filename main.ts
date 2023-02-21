@@ -9,5 +9,5 @@ basic.forever(function () {
     basic.pause(1000)
 })
 basic.forever(function () {
-    basic.setLedColor(0x00ff00)
+    basic.setLedColor(0x0000ff)
 })
