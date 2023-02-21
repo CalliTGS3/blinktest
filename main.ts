@@ -1,16 +1,10 @@
-input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
-    basic.showIcon(IconNames.House)
-    basic.pause(100)
-})
-input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
-    basic.setLedColor(0x00ff00)
-    basic.showNumber(1 + 1)
-})
 basic.showString("hi!")
 basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(500)
     basic.showIcon(IconNames.No)
     basic.pause(1000)
 })
 basic.forever(function () {
-    basic.setLedColor(0x0000ff)
+    basic.setLedColor(0xff0000)
 })
